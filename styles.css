@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Edu QLD Beginner', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero {
+  height: 350px;
+  width: 600px;
+  margin: 20px 0 0 0;
+  /* border-radius: 20px; */
+  background-image: url("images/moose-on-henrys-fork.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero-title {
+  color: white;
+  text-shadow: 0 0 8px black;
+  /* background-color: #588157; */
+  /* margin: 5px 0 10px 0; */
+  padding: 5px 10px;
+}
+
+#hero-desc {
+  color: #588157;
+  background-color: #dad7cd;
+  /* margin: 5px 0 10px 0; */
+  padding: 5px 5px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#activities {
+  width: 600px;
+  background: #dad7cd;
+  color: #588157;
+  /* text-shadow: 0 0 1px black; */
+  padding-bottom: 10px;
+}
+
+#act-list {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-act {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.act-img {
+  width: 150px;
+  border-radius: 50px;
+}
+
+.act-item {
+  margin: 10px auto 0 auto;
+}
+
+#tour-guide {
+  height: 190px;
+  background: #588157;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#tour-guide-img {
+  width: 100px;
+  margin: 10px;
+  border: 0 solid black;
+  border-radius: 20px;
+}
+
+#tour-guide-bio {
+  width: 300px;
+  color: lightgreen;
+  text-shadow: 1px 1px 5px black;
+  padding: 10px;
+}
