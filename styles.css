@@ -1,7 +1,7 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Edu QLD Beginner', cursive;
+  font-family: "Edu QLD Beginner", cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 #hero-title {
@@ -34,6 +35,10 @@ body {
   padding: 5px 5px;
   width: 300px;
   border-radius: 5px;
+}
+
+#hero > a {
+  padding-bottom: 10px;
 }
 
 #activities {
